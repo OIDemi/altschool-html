@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool Form</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="bio-button">
+        <a class="links" href="./index.html" id="top">Biography</a>
+      </div>
+    </div>
+
+    <form>
+      <h3>
+        Already an Altschooler?
+        <a href="https://portal.altschoolafrica.com/auth/login" target="_blank"
+          >Sign In!</a
+        >
+      </h3>
+      <h4>Signup</h4>
+      <p>Take the next steps to apply at Altschool Africa</p>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="fname">First Name</label>
+          <input type="text" placeholder="Enter first name" id="fname" />
+        </div>
+        <div class="flex-subcontainer">
+          <label for="lname">Last Name</label>
+
+          <input type="text" placeholder="Enter last name" id="lname" />
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="email">Email Address</label>
+
+          <input type="email" id="email" />
+        </div>
+        <div class="flex-subcontainer">
+          <label for="gender">Gender</label>
+
+          <input
+            type="text"
+            id="gender"
+            name="gender"
+            list="gender-options"
+            placeholder="Select your gender"
+          />
+          <datalist id="gender-options">
+            <option value="Male"></option>
+            <option value="Female"></option>
+          </datalist>
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="date">Date of Birth</label>
+
+          <input type="date" id="date" />
+        </div>
+        <div class="flex-subcontainer">
+          <label for="number">Phone Number</label>
+
+          <input type="number" id="number" />
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="country">Country</label>
+
+          <input
+            type="text"
+            id="country"
+            name="country"
+            list="country-options"
+            placeholder="Select your country"
+          />
+          <datalist id="country-options">
+            <option value="Nigeria"></option>
+            <option value="United States"></option>
+            <option value="Canada"></option>
+            <option value="United Kingdom"></option>
+            <option value="South Africa"></option>
+          </datalist>
+        </div>
+        <div class="flex-subcontainer">
+          <label for="state">State/City of Residence</label>
+
+          <input type="text" id="state" />
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="password">Password</label>
+
+          <input type="password" id="password" />
+        </div>
+        <div class="flex-subcontainer">
+          <label for="password">Confirm Password</label>
+
+          <input type="password" id="password" />
+        </div>
+      </div>
+      <div class="flex-container">
+        <div class="flex-subcontainer">
+          <label for="referral">How did you hear about us?</label>
+
+          <input
+            type="text"
+            id="referral"
+            name="referral"
+            list="referral-options"
+            placeholder="Select an option"
+          />
+          <datalist id="referral-options">
+            <option value="Twitter"></option>
+            <option value="Facebook"></option>
+            <option value="Linkedin"></option>
+            <option value="Youtube"></option>
+            <option value="Friend"></option>
+            <option value="Whatsapp"></option>
+            <option value="Instagram"></option>
+            <option value="Bill Board"></option>
+            <option value="Sales Officer"></option>
+            <option value="Other"></option>
+          </datalist>
+        </div>
+      </div>
+
+      <p>
+        By clicking continue, I agree to
+        <a
+          class="form-links"
+          href="https://altschoolafrica.com/terms-and-conditions"
+          target="_blank"
+          >Terms of Use</a
+        >
+        and acknowledge that I have read the
+        <a
+          href="https://altschoolafrica.com/privacy-policy"
+          class="form-links"
+          target="_blank"
+          >Privacy Policy.</a
+        >
+      </p>
+      <button class="form-button">Signup</button>
+    </form>
+    <div class="container">
+      <div class="back-to-top"></div>
+      <a class="links" href="#top">Back to top </a>
+    </div>
+    <div class="container">
+      <footer class="p">
+        <p>2024 Olujobi Ifeoluwa. All rights reserved</p>
+      </footer>
+    </div>
+  </body>
+</html>

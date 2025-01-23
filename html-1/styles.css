@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.content-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.img-container {
+  margin-top: 30px;
+}
+.img-section {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-container {
+  margin-top: 30px;
+  line-height: 2;
+}
+.bio-button {
+  margin-bottom: 20px;
+}
+.links {
+  border: none;
+  cursor: pointer;
+  padding: 12px 24px;
+  border-radius: 100px;
+
+  background-color: #0065fe;
+  color: #fff;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.flex-subcontainer {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.flex-subcontainer input {
+  border-radius: 0.375rem;
+  padding: 0.5rem;
+
+  outline-color: #0367f2;
+}
+
+.form-links {
+  text-decoration: none;
+  color: #0367f2;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.back-to-top {
+  margin-top: 30px;
+}
+.form-button {
+  width: 100%;
+  border: none;
+  background-color: #0367f2;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 10px;
+}
