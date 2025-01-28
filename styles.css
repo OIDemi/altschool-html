@@ -34,18 +34,16 @@ h1 {
   gap: 1rem;
 }
 
-.container-body ul {
+.btn-body {
   display: flex;
-  flex-direction: column;
   gap: 1rem;
+  border: none;
 }
-.container-body ul li {
-  list-style-type: none;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-}
-.container-body ul li a {
+
+.btn-body a {
   text-decoration: none;
   color: #000;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
 }
